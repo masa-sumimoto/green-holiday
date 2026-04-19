@@ -3,7 +3,8 @@
 A vibrant lime green Obsidian theme for focused writing.
 Vivid green backgrounds with dark code blocks for high readability.
 
-![screenshot](screenshot.png)
+![Light Mode](screenshot-light.png)
+![Dark Mode](screenshot-dark.png)
 
 ---
 
@@ -13,12 +14,6 @@ Vivid green backgrounds with dark code blocks for high readability.
 - 💻 Dark code blocks with syntax highlighting on both modes
 - 🎯 Code block active line highlight
 - 🪟 Soft desaturated sidebar in light mode for clear hierarchy
-
-## Screenshots
-
-| Light Mode | Dark Mode |
-|------------|-----------|
-| ![light](screenshot-light.png) | ![dark](screenshot-dark.png) |
 
 ## Installation
 
