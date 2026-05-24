@@ -58,6 +58,15 @@
   --inline-code-background: rgba(255, 255, 255, 0.1);
   --inline-code-color: #d4f0d4;
 
+  --graph-node: #548e56;
+  --graph-node-focused: #6bfa6e;
+  --graph-node-unresolved: #2b562c;
+  --graph-node-tag: #9cc89e;
+  --graph-node-attachment: #ffd27a;
+  --graph-line: #234824;
+  --graph-muted: #1d3c1e;
+  --graph-text: #9cc89e;
+
   --h1-color: #b8d4b8;
   --h2-color: #d4e8d4;
   --h3-color: #9cb89c;
@@ -99,6 +108,15 @@
 
   --inline-code-background: rgba(255, 255, 255, 0.75);
   --inline-code-color: #1a3a1a;
+
+  --graph-node: #2d8e2d;
+  --graph-node-focused: #031f04;
+  --graph-node-unresolved: #9ae29a;
+  --graph-node-tag: #084408;
+  --graph-node-attachment: #cc7700;
+  --graph-line: #7dd47d;
+  --graph-muted: #bfefbf;
+  --graph-text: #031f04;
 
   --h1-color: #070f07;
   --h2-color: #0d1a0d;
