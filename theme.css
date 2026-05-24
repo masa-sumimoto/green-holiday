@@ -333,23 +333,11 @@ body {
   padding-left: 0;
 }
 
+
 /* ── Horizontal Rule (---) ──────────────────────────────────── */
-.markdown-preview-view hr,
-.markdown-rendered hr {
-  border: none;
-  border-top: 1px dotted var(--hr-color);
-  margin: 1.5em 0;
-}
 
-.markdown-source-view.mod-cm6 .cm-line.HyperMD-hr {
-  border: none !important;
-  border-bottom: 1px dotted var(--hr-color) !important;
-}
-
-.markdown-source-view.mod-cm6 .cm-line.hr {
-  border: none !important;
-  border-top: 1px dotted var(--hr-color) !important;
-  background: none !important;
+.hr.cm-line hr {
+  border-top: 2px dotted var(--hr-color);
 }
 
 /* ── Code block background (source / live preview mode) ─────── */
