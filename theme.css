@@ -275,14 +275,14 @@ body {
 .theme-light mark,
 .theme-light .markdown-preview-view mark,
 .theme-light .markdown-rendered mark {
-  background: #c6ff4e !important;
-  color: #0a2a00 !important;
+  background: #e8f200 !important;
+  color: #1a1a00 !important;
   padding: 0.05em 0.1em;
   border-radius: 2px;
 }
 .theme-light .cm-s-obsidian .cm-highlight {
-  background: #c6ff4e !important;
-  color: #0a2a00 !important;
+  background: #e8f200 !important;
+  color: #1a1a00 !important;
   border-radius: 2px;
 }
 
@@ -342,7 +342,14 @@ body {
 }
 
 .markdown-source-view.mod-cm6 .cm-line.HyperMD-hr {
-  border-bottom: 1px dotted var(--hr-color);
+  border: none !important;
+  border-bottom: 1px dotted var(--hr-color) !important;
+}
+
+.markdown-source-view.mod-cm6 .cm-line.hr {
+  border: none !important;
+  border-top: 1px dotted var(--hr-color) !important;
+  background: none !important;
 }
 
 /* ── Code block background (source / live preview mode) ─────── */
