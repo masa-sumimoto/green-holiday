@@ -57,6 +57,13 @@
 
   --inline-code-background: rgba(255, 255, 255, 0.1);
   --inline-code-color: #d4f0d4;
+
+  --h1-color: #b8d4b8;
+  --h2-color: #d4e8d4;
+  --h3-color: #9cb89c;
+  --h4-color: #6e906e;
+  --h5-color: #6e906e;
+  --h6-color: #6e906e;
 }
 
 /* ── Light Mode ─────────────────────────────────────────────── */
@@ -92,6 +99,13 @@
 
   --inline-code-background: rgba(255, 255, 255, 0.75);
   --inline-code-color: #1a3a1a;
+
+  --h1-color: #070f07;
+  --h2-color: #0d1a0d;
+  --h3-color: #334433;
+  --h4-color: #556655;
+  --h5-color: #556655;
+  --h6-color: #556655;
 
   --code-background: #1a351a;
   --code-normal: #d4f0d4;
@@ -153,6 +167,10 @@ body {
   --font-text-size: 16px;
   --line-height-normal: 1.7;
   --p-spacing: 1em;
+
+  --h2-weight: 700;
+  --h3-weight: 600;
+  --h4-weight: 600;
 }
 
 /* ── Inline title (file name) ───────────────────────────────── */
