@@ -1,7 +1,7 @@
 /* ============================================================
    Green Holiday — Obsidian Theme
    A lime green tinted theme for focused writing.
-   Version: 0.2.2
+   Version: 0.3.0
    ============================================================ */
 
 /* ── Dark Mode ─────────────────────────────────────────────── */
@@ -57,6 +57,22 @@
 
   --inline-code-background: rgba(255, 255, 255, 0.1);
   --inline-code-color: #d4f0d4;
+
+  --graph-node: #548e56;
+  --graph-node-focused: #6bfa6e;
+  --graph-node-unresolved: #2b562c;
+  --graph-node-tag: #9cc89e;
+  --graph-node-attachment: #ffd27a;
+  --graph-line: #234824;
+  --graph-muted: #1d3c1e;
+  --graph-text: #9cc89e;
+
+  --h1-color: #b8d4b8;
+  --h2-color: #d4e8d4;
+  --h3-color: #9cb89c;
+  --h4-color: #6e906e;
+  --h5-color: #6e906e;
+  --h6-color: #6e906e;
 }
 
 /* ── Light Mode ─────────────────────────────────────────────── */
@@ -92,6 +108,22 @@
 
   --inline-code-background: rgba(255, 255, 255, 0.75);
   --inline-code-color: #1a3a1a;
+
+  --graph-node: #2d8e2d;
+  --graph-node-focused: #031f04;
+  --graph-node-unresolved: #9ae29a;
+  --graph-node-tag: #084408;
+  --graph-node-attachment: #cc7700;
+  --graph-line: #7dd47d;
+  --graph-muted: #bfefbf;
+  --graph-text: #031f04;
+
+  --h1-color: #070f07;
+  --h2-color: #0d1a0d;
+  --h3-color: #334433;
+  --h4-color: #556655;
+  --h5-color: #556655;
+  --h6-color: #556655;
 
   --code-background: #1a351a;
   --code-normal: #d4f0d4;
@@ -153,6 +185,10 @@ body {
   --font-text-size: 16px;
   --line-height-normal: 1.7;
   --p-spacing: 1em;
+
+  --h2-weight: 700;
+  --h3-weight: 600;
+  --h4-weight: 600;
 }
 
 /* ── Inline title (file name) ───────────────────────────────── */
@@ -239,14 +275,14 @@ body {
 .theme-light mark,
 .theme-light .markdown-preview-view mark,
 .theme-light .markdown-rendered mark {
-  background: #c6ff4e !important;
-  color: #0a2a00 !important;
+  background: #e8f200 !important;
+  color: #1a1a00 !important;
   padding: 0.05em 0.1em;
   border-radius: 2px;
 }
 .theme-light .cm-s-obsidian .cm-highlight {
-  background: #c6ff4e !important;
-  color: #0a2a00 !important;
+  background: #e8f200 !important;
+  color: #1a1a00 !important;
   border-radius: 2px;
 }
 
@@ -306,7 +342,14 @@ body {
 }
 
 .markdown-source-view.mod-cm6 .cm-line.HyperMD-hr {
-  border-bottom: 1px dotted var(--hr-color);
+  border: none !important;
+  border-bottom: 1px dotted var(--hr-color) !important;
+}
+
+.markdown-source-view.mod-cm6 .cm-line.hr {
+  border: none !important;
+  border-top: 1px dotted var(--hr-color) !important;
+  background: none !important;
 }
 
 /* ── Code block background (source / live preview mode) ─────── */
@@ -371,4 +414,24 @@ body {
 :is(.markdown-preview-view, .markdown-rendered) pre {
   border-radius: 6px;
   padding: 1em 1.2em;
+}
+
+/* ── Callouts ────────────────────────────────────────────────── */
+.callout {
+  border-radius: 6px;
+  border-left-width: 3px;
+}
+
+.theme-light .callout {
+  background-color: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(2px);
+}
+
+.theme-dark .callout {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.callout-title {
+  font-weight: 700;
+  letter-spacing: 0.01em;
 }
