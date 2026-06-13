@@ -190,6 +190,11 @@ body {
   --line-height-normal: 1.7;
   --p-spacing: 1em;
 
+  /* Bold = --font-weight (400) + --bold-modifier, so 300 yields 700.
+     Note: Obsidian computes bold via calc(--font-weight + --bold-modifier)
+     directly in many rules, so overriding --bold-weight alone has no effect */
+  --bold-modifier: 300;
+
   --h2-weight: 700;
   --h3-weight: 600;
   --h4-weight: 600;
