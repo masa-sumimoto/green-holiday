@@ -1,7 +1,7 @@
 /* ============================================================
    Green Holiday — Obsidian Theme
    A lime green tinted theme for focused writing.
-   Version: 0.3.4
+   Version: 0.3.5
    ============================================================ */
 
 /* ── Dark Mode ─────────────────────────────────────────────── */
@@ -28,6 +28,8 @@
 
   --interactive-accent: #6bfa6e;
   --interactive-accent-hover: #8ffb91;
+  --text-on-accent: #031f04;
+  --text-on-accent-inverted: #e2f5e2;
 
   --background-modifier-border: #3e7840;
   --background-modifier-border-hover: #548e56;
